@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>miniWhatsApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Create new Chat</h2>
+    <form method="post" action="/chats">
+      <label for="from">Enter senders name</label><br />
+      <input
+        type="text"
+        name="from"
+        id="from"
+        placeholder="Enter name"
+      /><br /><br />
+      <label for="msg">Enter Message</label><br />
+      <textarea
+        name="msg"
+        id="msg"
+        placeholder="Enter message"
+        rows="6"
+      ></textarea
+      ><br /><br />
+      <label for="to">Enter Receivers name</label><br />
+      <input type="text" name="to" id="to" placeholder="Enter name" /><br /><br>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniWhatsApp</title>
+</head>
+<body>
+    <div>
+        <h3>Message edit for name: @<%= chat.from %> & it's Id: <%= chat._id %></h3>
+        <form method="post" action="/chats/<%= chat._id %>?method=PATCH">  
+            <label for="newMsg">Message for edit</label> <br>
+            <textarea name="newMsg" id="newMsg" rows="7"><%= chat.msg %></textarea><br><br>
+            <button>Submit</button><br>
+        </form>
+    </div>
+</body>
+</html>

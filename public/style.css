@@ -1,0 +1,28 @@
+body{
+    margin-left: 20px;
+    background-color: rgb(56, 55, 55);
+}
+
+h2{
+    color: azure;
+}
+
+.chats{
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    display:inline-block;
+
+}
+
+.msg{
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+#id{
+    display: inline-block;
+}
